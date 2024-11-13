@@ -476,10 +476,10 @@ section{
 .chat-container {
   position: fixed;
   bottom: 5%;
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Adjust for width */
-  width: 70%; /* Increased width */
-  height: 75%; /* Set height */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 75%;
   border: 1px solid var(--border);
   border-radius: 5%;
   background: var(--white);
@@ -489,43 +489,42 @@ section{
 }
 
 .chat-header {
-    background-color:rgb(50, 50, 102);
-    color: var(--white);
-    padding: 1rem;
-    text-align: center;
-    border-radius: .5rem .5rem 0 0;
-    font-size: 2rem; /* Increased font size for the header */
+  background-color: rgb(50, 50, 102);
+  color: var(--white);
+  padding: 1rem;
+  text-align: center;
+  border-radius: .5rem .5rem 0 0;
+  font-size: 2rem;
 }
 
 .chat-messages {
-    padding: 1rem;
-    flex: 1; /* Allow this area to expand */
-    overflow-y: auto;
-    border: 1px solid var(--border);
-    border-top: none;
+  padding: 1rem;
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-top: none;
 }
 
 .chat-messages div {
-    font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 
 .chat-input {
-    background-color: rgb(50, 50, 102);
-    display: flex;
-    padding: 1%;
-    border-top: 1px solid var(--border);
-    position: fixed;
-    bottom: 5%;
-    left: 50%;
+  background-color: rgb(50, 50, 102);
+  display: flex;
+  padding: 1%;
+  border-top: 1px solid var(--border);
+  position: relative;
+  width: 100%; 
+  bottom: 0; 
 }
-
 .chat-input input {
-    background-color: rgb(187, 255, 255);
-    flex: 100%;
-    border: none;
-    padding: .5rem;
-    border-radius: .3rem;
-    font-size: 1.8rem;
+  background-color: rgb(187, 255, 255);
+  flex: 1;
+  border: none;
+  padding: .5rem;
+  border-radius: .3rem;
+  font-size: 1.8rem;
 }
 
 /* From Uiverse.io by eirikvold */ 
