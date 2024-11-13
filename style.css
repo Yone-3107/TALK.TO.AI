@@ -512,9 +512,9 @@ section{
 .chat-input {
     background-color: rgb(50, 50, 102);
     display: flex;
-    padding: 1rem;
+    padding: 1%;
     border-top: 1px solid var(--border);
-    left:3rem;
+    left:25%;
 }
 
 .chat-input input {
