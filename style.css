@@ -3,7 +3,7 @@
 :root{
     --black:#130f40;
     --white:#fff;
-    --gradient:linear-gradient(blue, rgb(66, 119, 155), rgb(22, 47, 185));
+    --gradient:linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(31, 34, 51));
     --background:rgba(255,255,255,.1);
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --border:.1rem solid rgba(255,255,255,.1);
@@ -478,8 +478,8 @@ section{
     bottom: 5%;
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust for width */
-    width: 1000px; /* Increased width */
-    height: 500px; /* Set height */
+    width: 120rem; /* Increased width */
+    height: 55rem; /* Set height */
     border: 1px solid var(--border);
     border-radius: 3%;
     background: var(--white);
@@ -718,15 +718,15 @@ button {
         justify-content: flex-start;
         gap: 1rem;
         background-color: rgb(161, 255, 20);
-        border-radius: 30px;
+        border-radius: 10rem;
         color: rgb(19, 19, 19);
         font-weight: 600;
         border: none;
         position: relative;
         cursor: pointer;
         transition-duration: .2s;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
-        padding-left: 8px;
+        box-shadow: 5rem 5rem 10rem rgba(0, 0, 0, 0.116);
+        padding-left: 1rem;
         transition-duration: .5s;
       }
       
