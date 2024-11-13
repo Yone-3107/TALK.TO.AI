@@ -478,10 +478,10 @@ section{
     bottom: 5%;
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust for width */
-    width: 120rem; /* Increased width */
-    height: 55rem; /* Set height */
+    width: 70%; /* Increased width */
+    height: 75%; /* Set height */
     border: 1px solid var(--border);
-    border-radius: 3%;
+    border-radius: 5%;
     background: var(--white);
     box-shadow: var(--box-shadow);
     display: none; /* Initially hidden */
