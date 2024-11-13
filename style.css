@@ -712,7 +712,7 @@ button {
     transition: 0.4s;
     transform: translateX(-56px);
   }
-    .button3 {
+   .header .button3 {
         width: 100%;
         height: 100%;
         display: flex;
@@ -732,12 +732,12 @@ button {
         transition-duration: .5s;
       }
       
-      .svgIcon {
+     .header .svgIcon {
         height: 25px;
         transition-duration: 1.5s;
       }
       
-      .bell path {
+     .header .bell path {
         fill: rgb(19, 19, 19);
       }
       
