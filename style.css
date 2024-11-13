@@ -514,17 +514,17 @@ section{
     display: flex;
     padding: 1rem;
     border-top: 1px solid var(--border);
+    left:3rem;
 }
 
 .chat-input input {
     background-color: rgb(187, 255, 255);
-    flex: 1;
+    flex: 100%;
     border: none;
     padding: .5rem;
     border-radius: .3rem;
     font-size: 1.8rem;
 }
-
 /* From Uiverse.io by eirikvold */ 
 /* From Uiverse.io by adamgiebl */ 
 button {
