@@ -116,7 +116,7 @@ section{
     box-shadow: var(--box-shadow);
     padding:2rem;
     border-radius: 1.5rem;
-    backdrop-filter: blur(.1rem);
+    backdrop-filter: blur(.01rem);
 }
 
 .header .logo{
@@ -634,7 +634,7 @@ button {
 }
 .button2 {
     display: block;
-    position: relative;
+    position: fixed;
     top:1.3rem;
     width: 56px;
     height: 56px;
@@ -644,6 +644,7 @@ button {
     background-color: transparent;
     cursor: pointer;
     border: 0;
+    z-index: 9999;
   }
   
   .button2:before,

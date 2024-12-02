@@ -61,6 +61,7 @@
         li {
             font-size: 2rem;
         }
+
         .formula {
             margin: 1.5rem 0;
             padding: 1.5rem;
@@ -102,6 +103,7 @@
                 opacity: 1;
             }
         }
+        
     </style>
 </head>
 <body>
@@ -147,94 +149,75 @@
         </a>
     </header>
     <header class="math">
-        <h1>TOÁN HỌC</h1>
-        <p><i>"Toán học là ngôn ngữ viết nên vũ trụ."</i></p>
-        <p><i>-Galileo Galilei-</i></p>
+        <h1>VẬT LÝ</h1>
+        <p><i>“Có thể Chúa tồn tại, nhưng khoa học có thể giải thích về vũ trụ mà không cần tới một đấng sáng tạo."</i></p>
+        <p><i>-Stephen Hawking-</i></p>
     </header>
 
     <div class="contentx">
         <h2>Giới thiệu</h2>
         <p>
-            Trang này sẽ cung cấp các kiến thức toán học từ cơ bản đến nâng cao. Bao gồm các lý thuyết và các công thức. Ngoài ra còn chia sẻ một số những kiến thức thú vị về toán học như những câu hỏi tưởng chừng hiển nhiên nhưng lại rất khó, hay những nghịch lý, những vấn đề hóc búa trong toán học.
+            Trang này sẽ cung cấp các kiến thức vật lý từ cơ bản đến nâng cao. Bao gồm các lý thuyết và các công thức. Ngoài ra còn chia sẻ một số những kiến thức kỳ diệu về vật lý, những lý thuyết định hình thế giới của chúng ta.
         </p>
 
         <!-- Liên kết đến công thức tính lực hấp dẫn 2 vật -->
         <div class="formula">
-            <a href="javascript:void(0)" onclick="toggleVisibility('cthuc1')"><h2>Định lý Pythagoras</h2></a>
+            <a href="javascript:void(0)" onclick="toggleVisibility('cthuc1')"><h2>Công thức tính lực hấp dẫn 2 vật tác dụng lên nhau</h2></a>
         </div>
 
         <!-- Phần văn bản bị ẩn, sẽ hiển thị khi bấm vào -->
         <div id="cthuc1" class="content-hidden">
             <p>
-                Định lý Pythagoras đã được biết đến từ lâu trước thời của Pythagoras (500 năm TCN), nhưng ông được coi là người đầu tiên nêu ra cách chứng minh định lý này.
-                .Trong một tam giác vuông, định lý Pythagoras được phát biểu như sau:
+                Với việc phát hiện ra Định luật vạn vật hấp dẫn, Sir Issac Newton đã thực sự mở mang cách hiểu biết của con người về thế giới. Và Newton cũng đã cho ra công thức toán học để tính lực hấp dẫn mà 2 vật tác dụng lên nhau, công thức đó như sau:
             </p>
-            <div class="formula2">
-                Tổng 2 bình phương của 2 cạnh góc vuông bằng bình phương của cạnh huyền.
-                <img src="https://ichef.bbci.co.uk/images/ic/1200xn/p0dn6xn6.png" alt="Pythagorean Theorem" style="width: 42rem; height: auto; margin-top: 1rem;"></div>
+            <div class="formula2">\[ Fhd= G
+                \frac{m1.m2}{r^2}
+                \]
+                <img src="https://vietjack.com/tai-lieu-mon-ly/images/cong-thuc-tinh-luc-hap-dan-ctqt10-61388.png" alt="Pythagorean Theorem" style="width: 42rem; height: auto; margin-top: 1rem;"></div>
             <p>Trong đó:</p>
             <p>
-                <li>\(a\): chiều dài của một cạnh góc vuông.</li>
-                <li>\(b\): chiều dài của cạnh góc vuông còn lại.</li>
-                <li>\(c\): chiều dài của cạnh huyền.</li>
+                <li>\(Fhd\): Lực hấp dẫn 2 vật tác dụng lên nhau.</li>
+                <li>\(G\): Hằng số hấp dẫn=6,67.10<sup>-11</sup>, có thể thay đổi ở các trường hợp khác nhau. Đơn vị: Nm<sup>2</sup>/kg<sup>2</sup>.</li>
+                <li>\(m1, m2\): Khối lượng của 2 vật 1,2. Đơn vị: kg.</li>
+                <li>\(r\): Khoảng cách giữa 2 vật</li>
             </p>
         </div>
 
         <!-- Các liên kết và công thức khác -->
         <div class="formula">
-            <a href="javascript:void(0)" onclick="toggleVisibility('cthuc2')"><h2>Bất đẳng thức Cauchy (AM-GM)</h2></a>
+            <a href="javascript:void(0)" onclick="toggleVisibility('cthuc2')"><h2>Công thức tính lực hấp trái đất tác dụng lên vật</h2></a>
         </div>
         <div id="cthuc2" class="content-hidden">
             <p>
-                Được đặt tên theo nhà toán học người Pháp Augustin Louis Cauchy bởi vì phương pháp chứng minh của ông cho bất đẳng thức này là hiệu quả và dễ hiểu nhất, nhưng ông không phải người tìm ra bất đẳng thức này. Tên quốc tế của Bất đẳng thức Cauchy là AM-GM (Arithmetic Means - Geometric Means).
-                .Với 2 số thực a,b không âm, bất đẳng thức Cauchy được phát biểu như sau:
+                Với công thức đã biết ở trên, ta có thể dễ dàng suy ra công thức tính trọng lực mà trái đất tác dụng lên vật như sau:
             </p>
-            <div class="formula2">\[
-                \frac{a + b}{2} \geq 2 \sqrt{ab}
+            <div class="formula2">\[ P= G
+                \frac{m.M}{(R+h)^2}
                 \]
-            Dấu "=" xảy ra khi a=b.</div>
-                <p>Bất đẳng thức Cauchy rất hữu dụng khi ta làm những bài tập về bất đẳng thức, và những biến thể của nó cũng có ích không kém. Đây là 1 bất đẳng thức bạn nên biết khi học toán.</p>
+                <img src="https://hoangvina.com/wp-content/uploads/2022/03/luc-hap-dan-5.jpg" style="width: 42rem; height: auto; margin-top: 1rem;"></div>
+            <p>Trong đó:</p>
+            <p>
+                <li>\(P\): Lực hấp dẫn trái đất tác dụng lên vật.</li>
+                <li>\(G\): Hằng số hấp dẫn=6,67.10<sup>-11</sup>, có thể thay đổi ở các trường hợp khác nhau. Đơn vị: Nm<sup>2</sup>/kg<sup>2</sup>.</li>
+                <li>\(m, M\): Khối lượng của vật và của trái đất. Đơn vị: kg.</li>
+                <li>\(R, h\): R là bán kính của trái đất, h là chiều cao của vật so với mặt đất. Đơn vị: mét</li>
+            </p>
         </div>
         
         <div class="formula">
-            <a href="javascript:void(0)" onclick="toggleVisibility('cthuc3')"><h2>Tại sao không thể chia cho số 0?</h2></a>
+            <a href="javascript:void(0)" onclick="toggleVisibility('cthuc3')"><h2>Bản chất của lực hấp dẫn là gì?</h2></a>
         </div>
         <div id="cthuc3" class="content-hidden">
             <p>
-                Tại sao không thể chia cho số 0?.
+                Mặc dù đã phát hiện ra được định luật vạn vật hấp dẫn, nhưng khi đó Newton vẫn chưa giải thích được kỹ càng và hợp lý về bản chất của lực hấp dẫn. Mãi cho đến những năm đầu thế kỷ 20, nhà vật lý học lỗi lạc Albert Einstein đã giải thích được bản chất của lực hấp dẫn qua Thuyết tương đối.
             </p>
             <div class="formula2">
-                Bạn đã bao giờ thắc mắc: tại sao lại không thể chia cho số 0 chưa? Có 1 số cách để chứng minh rằng không thể chia cho số 0, và đây là 1 trong số đó, hãy cùng thử xem nhé!
-                    <li> Đầu tiên hãy cùng thử tính các phép chia của 1 cho 1; 0,1; 0,01; 0,001; 0,0001... Ta có:</li>
-                    <li> 1:1=1</li>
-                    <li> 1:0,1=10</li>
-                    <li> 1:0,01=100</li>
-                    <li> 1:0,001=1000</li>
-                    <li> 1:0,0001=10000</li>
-                    <li> 1:0,00001=100000 và cứ như thế...</li>
-                    <li> Đến đây có lẽ bạn sẽ suy luận rằng: càng chia cho số tiệm cận số 0 thì càng lớn, vậy phải chăng chia cho số 0 sẽ bằng dương vô cực?</li>
-                    <li> Trước khi xét xem điều này có đúng hay không, ta thử làm tương tự như ở trên với số 2 xem sao nhé!</li>
-                    <li> Ta có:</li>
-                    <li> 2:1=2</li>
-                    <li> 2:0,1=20</li>
-                    <li> 2:0,01=200</li>
-                    <li> 2:0,001=2000</li>
-                    <li> 2:0,0001=20000</li>
-                    <li> 2:0,00001=200000 và cứ như thế...</li>
-                    <li> Vậy liệu ta có thể kết luận rằng: 2 chia cho số 0 cũng bằng dương vô cực? Nhưng nếu ta kết luận như vậy, ta sẽ có đẳng thức:</li>
-                    <li> \[
-                        \frac{1}{0} = &#x221e; = \frac{2}{0}
-                        \]</li>
-                        <li> Từ trên ta suy ra: 1=2. Nhưng rõ ràng đây là 1 điều không thể, đó là 1 lý do để ta thấy rằng ta không thể chia cho số 0. </li>
-                        <li>Chưa hết, nếu ta làm theo cách lấy 1 chia cho các số tiệm cận số 0, nhưng là các số -1; -0,1; -0,01; -0,001; -0,0001... Ta có:</li>
-                        <li> 1:(-1)=-1</li>
-                    <li> 1:(-0,1)=-10</li>
-                    <li> 1:(-0,01)=-100</li>
-                    <li> 1:(-0,001)=-1000</li>
-                    <li> 1:(-0,0001)=-10000</li>
-                    <li> 1:(-0,00001)=-100000 và cứ như thế...</li>
-                    <li> Và chúng ta lại có 1 hướng suy luận mới: càng chia cho số tiệm cận số 0, ta sẽ càng nhận giá trị nhỏ hơn, vậy thì phải chăng chia cho số 0 ta sẽ nhận giá trị âm vô cực?</li>
-                    Chính vì 2 hướng suy luận này đã tạo nên các nghịch lý khi chia cho số 0, cho nên ta không thể xác định được rằng chia cho số 0 sẽ có kết quả ra sao, vì vậy ta kết luận rằng không thể chia 1 số cho số 0.
+                <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/streams/2013/January/130110/1B5480339-bill-m--fink29E9BA14-301B-D462-DF3C-3C746AB5EB22.jpg" alt="Pythagorean Theorem" style="width: 42rem; height: auto; margin-top: 0rem; margin-left: 32%;">
+                <ul>Theo đó: Einstein cho rằng thế giới mà ta đang sống là 1 không-thời gian 4 chiều, với 3 chiều không gian và 1 chiều thời gian. Ông tưởng tượng không-thời gian này như 1 mặt phẳng, ở trên mặt phẳng đó là các vật thể có khối lượng và chúng sẽ làm bề mặt của tấm phẳng bị lõm xuống, tạo thành các hố và từ đó hút các vật khác lại gần.
+                Dựa trên điều đó, ta có thể thấy rằng: Lực hấp dẫn là sự biến dạng của không-thời gian mà ta đang sống, và vật có khối lượng càng lớn thì hút các vật khác càng mạnh. Hơn thế nữa, như đã nói ở trên, trọng lượng bẻ cong không-thời gian, vì vậy trọng lượng ngoài làm biến dạng không gian và hút các vật, nó cũng đồng thời làm biến dạng, làm giãn nở thời gian, làm cho thời gian xung quanh trường hấp dẫn của vật thể có khối lượng nặng trôi
+                chậm hơn so với thời gian xung quanh trường hấp dẫn của 1 vật khác có khối lượng nhẹ hơn, đây là 1 hệ quả được suy ra từ Thuyết tương đối của Einstein. Ngoài ra, không thời gian 4 chiều còn có hình ảnh thực tế và chính xác hơn như sau:
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRElO3nmSTk9unzh7fwYfeJLH-a9o11Q6Y6NUr78s_XfL4VuknPRYX9G1MlLhUDOkk9BzU&usqp=CAU" alt="Pythagorean Theorem" style="width: 42rem; height: auto; margin-top: 0rem;margin-left: 32%;">
+                </ul>
                 </div>
         </div>
     </div>
